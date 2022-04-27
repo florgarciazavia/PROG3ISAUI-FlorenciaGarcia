@@ -1,0 +1,23 @@
+body {
+    background-color: rgb(167, 241, 200);
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: brown;
+}
+p{
+    font-size: 18px;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul{
+    font-size: 18px;
+    color: blue;
+    font-family: 'Times New Roman', Times, serif;
+}
+.categorias {color:green;}
+.estilo1 {
+    background-color: black;
+    font-style: italic;
+    color: white
+}

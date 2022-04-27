@@ -1,0 +1,8 @@
+body {background-color: white;}
+p {font-size: 10pt; text-align: center;}
+
+#Parrafo2 {font-size: 11pt; color: blue; text-align: left;}
+#Estilo1 {color: white; font-size: 15px; background-color: black; text-align: left;}
+.Clase1 {font-size: 30px; font-style: italic;}
+.striped-border { border: .7px dashed #000;}
+#Estilo2 {font-size: x-large; color: red; font-weight: bolder; text-align: left;}

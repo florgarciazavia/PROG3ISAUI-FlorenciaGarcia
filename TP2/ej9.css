@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(248, 245, 69);
+  }
+  h1 {
+    color: rgb(233, 194, 110);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  ul {
+    color: rgb(76, 42, 199);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  #bing {color:rgb(171, 39, 223);}
+  #google {color: rgb(19, 224, 19); text-decoration: none;}
+  .Redes {color: rgba(255, 0, 0, 0.959)}
