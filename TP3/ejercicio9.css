@@ -1,0 +1,10 @@
+td {border-collapse: collapse; border: 0px;}
+#div {display: flex; align-items: stretch; width: 50%; background-color: whitesmoke;}
+#div1 {height: auto; width: 25%; float: left; background-color: cornflowerblue;}
+#div2 {height: auto; width: 25%; float: right; background-image:url(https://previews.123rf.com/images/vectordivider/vectordivider1609/vectordivider160900027/62693676-damasco-sin-fisuras-patr%C3%B3n-repetitivo-fondo-ornamento-floral-azul-en-estilo-barroco-.jpg); background-repeat: repeat;}
+#celda1 {background-color:pink; }
+#celda2 {background-color: palevioletred; color: white;}
+#celda3 {background-color: white;}
+#celda4 {background: rgba(0, 0, 0, 0.7); color: white; font-family: 'Courier New', Courier, monospace; font-size: 20px;}
+#celda5 {background: rgba(255, 255, 255,0.8); font-family: 'Courier New', Courier, monospace; font-size: 20px;}
+#celda6 {background: rgba(255, 255, 255,0.3);}

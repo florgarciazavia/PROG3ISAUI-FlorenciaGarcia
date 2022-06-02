@@ -1,0 +1,4 @@
+table {background-color: white;}
+th {color: blue; background-color:lightblue; border-collapse: collapse; text-align: left; 
+    border-width: 1px; border:solid; border-color:blue; border-left: 0px; border-right: 0px;}
+td {background-color: lightcyan; border-spacing: 2px; border-collapse: separate;}

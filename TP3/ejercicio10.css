@@ -1,0 +1,8 @@
+header {width: 60%; background-color:saddlebrown; color: white; text-align: center; font-size: 40px; font-family: Arial, Helvetica, sans-serif;}
+h1 {font-family: Arial, Helvetica, sans-serif;}
+tr {height: 30px; border-bottom-color: saddlebrown; border-bottom: 1px;}
+p {font-family: Arial, Helvetica, sans-serif;}
+#div {display: flex; align-items: stretch; width: 60%;}
+#div1 {width: 1400px; height: auto; background-color:khaki;}
+#div2 {width: auto; height: auto; border-left:medium; border-right: medium;}
+#div3 {width: 1800px; height: auto; background-color:khaki;}

@@ -1,0 +1,5 @@
+table {font-family: Arial, Helvetica, sans-serif; border: none; background-color: whitesmoke; white-space: nowrap;}
+th {vertical-align: top; text-align: center;height: 30px;}
+td {vertical-align: top; text-align: center;height: 30px;}
+#Estilo1 {color: white; background-color: grey; border: none; font-weight: bold;}
+#Estilo2 {background-color: darkgray;}
