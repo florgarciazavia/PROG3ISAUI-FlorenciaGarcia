@@ -1,50 +1,82 @@
 body {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    font-size: small;
+    font-family:'Segoe UI Light';
+    font-size:small;
     text-align: left;
     width: 540px;
+    font-weight:lighter;
 }
  
 h1 {
     font-weight: 500;
     color: blue;
+    margin-left: 20px;
+    margin-bottom: 10px;
 }
 
 input {
     text-align: left;
-    line-height: 30px;
+    line-height: 40px;
     margin: 15px;
-    border-radius: 20%;
+    border-radius: 7px;
+    border-style: none;
 }
- 
+
+input::placeholder {
+    font-family: 'Segoe UI Light';
+    text-indent: 15px;
+    color:blue;
+}
+
 #nombre {
-    background-color: rgb(148, 169, 186);
+    background-color: rgb(228, 237, 245);
     font-weight: 100;
-    color: blue;
 }
 #apellido {
     text-align: left;
-    line-height: 30px;
     margin: 15px;
-    color: rgb(148, 169, 186);
- 
+    background-color: rgb(228, 237, 245);
+    font-weight: 100;
 }
 #email {
     text-align: left;
-    line-height: 30px;
     margin: 15px;
-    color: rgb(91, 122, 148);
+    background-color: rgb(191, 207, 219);
+    font-weight: 100;
 }
 #telefono {
     text-align: left;
-    line-height: 30px;
     margin: 15px;
-    color: rgb(148, 169, 186);
+    background-color: rgb(191, 207, 219);
 }
 #direccion {
     text-align: left;
+    margin: 15px;
+    background-color: rgb(174, 198, 218);
+    width: 380px;
+}
+textarea {
+    text-align: left;
     line-height: 30px;
     margin: 15px;
-    background-color: rgb(79, 119, 152);
+    background-color: rgb(144, 188, 223);
+    width: 380px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    resize: none;
+    font-family: 'Segoe UI Light';
+    text-indent: 15px;
+    border-radius: 7px;
+}
+textarea::placeholder {
+    color:blue;
+}
+
+#btn {
+    background-color: rgb(22, 22, 196);
+    border-radius: 20px;
+    line-height: 38px;
+    width: 135px;
+    color: white;
+    border-style: none;
+    margin-left: 140px;
 }
