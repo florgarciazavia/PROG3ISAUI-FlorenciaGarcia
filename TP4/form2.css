@@ -1,0 +1,50 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: small;
+    text-align: left;
+    width: 540px;
+}
+ 
+h1 {
+    font-weight: 500;
+    color: blue;
+}
+
+input {
+    text-align: left;
+    line-height: 30px;
+    margin: 15px;
+    border-radius: 20%;
+}
+ 
+#nombre {
+    background-color: rgb(148, 169, 186);
+    font-weight: 100;
+    color: blue;
+}
+#apellido {
+    text-align: left;
+    line-height: 30px;
+    margin: 15px;
+    color: rgb(148, 169, 186);
+ 
+}
+#email {
+    text-align: left;
+    line-height: 30px;
+    margin: 15px;
+    color: rgb(91, 122, 148);
+}
+#telefono {
+    text-align: left;
+    line-height: 30px;
+    margin: 15px;
+    color: rgb(148, 169, 186);
+}
+#direccion {
+    text-align: left;
+    line-height: 30px;
+    margin: 15px;
+    background-color: rgb(79, 119, 152);
+}

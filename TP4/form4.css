@@ -1,0 +1,20 @@
+.container {
+  display:flex;
+  justify-content:space-between;
+  background:red;
+}
+
+#leftbox {
+    float:left; 
+    background:rgb(138, 140, 156);
+    width:25%;
+    height:280px;
+}
+
+#rightbox{
+    float:right;
+    background:rgb(103, 128, 136);
+    width:25%;
+    height:280px;
+    color:rgb(212, 209, 209);
+}
