@@ -6,27 +6,28 @@
     </head>
 
     <body>
-        <div>
-            <div id="rightbox">
-                <h1>Bienvenido</h1>
-                <p>¿Perdiste tu contraseña?</p>
-                <p>¿No tienes cuenta? Registrate</p>
-            </div>
-            
+        <div id="wrapper">
 
-            <input type="submit" value="Volver">
-
-            <div id="leftbox">
+            <div id="first">
                 <form>
-                    <label for="nombre">Nombre</label><br>
-                    <input id="nombre" type="text" placeholder="Nombre..."><br>
-                    <label for="email">Email</label><br>
-                    <input id="email" type="text" placeholder="Email..."><br>
-                    <button type="submit">Login</button>
+                    <label for="usuario">Usuario</label><br>
+                    <input id="usuario" type="text" placeholder="Usuario"><br>
+                    <label for="contrasena">Contraseña</label><br>
+                    <input id="contrasena" type="text" placeholder="Contraseña"><br>
+                    <button type="submit" id="btn">Login</button>
                 </form>
             </div>
 
+            <div id="second">
+                <p id="title">Bienvenido</p>
+                <hr>
+                <p>¿Perdiste tu contraseña?</p>
+                <p>¿No tienes cuenta? Registrate</p>
+                <hr>
+                <p>Volver</p>
+            </div>
 
+            
         </div>
     </body>
 </html>

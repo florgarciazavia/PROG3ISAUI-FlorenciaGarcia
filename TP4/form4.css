@@ -1,20 +1,76 @@
-.container {
-  display:flex;
-  justify-content:space-between;
-  background:red;
+#title {
+  color:darkgray;
+  margin-top: 60px;
+  font-size: 40px;
 }
 
-#leftbox {
-    float:left; 
-    background:rgb(138, 140, 156);
-    width:25%;
-    height:280px;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: darkgrey;
+  font-size: smaller;
+  vertical-align: middle;
+  line-height: 2px;
 }
 
-#rightbox{
-    float:right;
-    background:rgb(103, 128, 136);
-    width:25%;
-    height:280px;
-    color:rgb(212, 209, 209);
+#wrapper {
+  width: 650px;
+  border: 1px solid black;
+  overflow: hidden;
+  background-color: rgb(90, 96, 97);
+  text-align: center;
+  line-height: 10px;
+  position:absolute;
+  display: flex;
+  vertical-align: middle;
+}
+
+#first {
+  background-color:rgb(138, 175, 170);
+  width: 250px;
+  float:left;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 25px;
+  padding: 15px;
+  box-shadow:darkgrey 12px;
+  color: rgb(51, 47, 47);
+  line-height: 25px;
+  font-size: medium;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+
+#second {
+  border-style: none;
+  overflow: hidden;
+  width: 250px;
+  display:inline-block;
+  text-align: center;
+  align-content: center;
+}
+
+label {
+  text-align: center
+}
+
+input {
+  line-height: 28px;
+  width: 200px;
+  border-radius: 2px;
+  border-style: none;
+}
+
+#btn {
+  width: 208px;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 25px;
+  margin-top: 10px;
+  background-color:rgb(204, 199, 199);
+  border-style: none;
+}
+
+hr{
+  width: 500px;
 }
